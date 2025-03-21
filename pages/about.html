@@ -36,6 +36,23 @@
             transition: background-color 0.3s ease;
             background-color: #527524;
         }
+
+
+        .about-cap{
+            background-color: rgb(180, 24, 24);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-cap h1{
+            text-align: center;
+        }
+        .about-pic img{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            object-position: 20% ;
+        }
     </style>
 
     <div class="col headbody">
@@ -49,10 +66,10 @@
     </div>
 
     <div class="title-about">
-        <div class="about-caption">
-            <h1>We are Linear!</h1>
+        <div class="col-xl about-cap">
+            <h1 class="display-1">We are Linear!</h1>
         </div>
-        <div class="title-pic">
+        <div class="col-xl about-pic">
             <img src="../image/team.png">
         </div>
     </div>

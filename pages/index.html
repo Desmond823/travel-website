@@ -10,31 +10,37 @@
         <style>
             .headbody{
                 height: 7.4rem;
-                background-color: #7bae37;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 5%;
+            background-color: #7bae37;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             }
             .headbutt{
                 display: flex;
-                background-color: transparent;
-                align-items: center;
-                justify-content: center;
+            height: 100%;
+            width: 49rem;
+            justify-content: center;
+            align-items: center;
             }
             .headbutt a{
-                font-size:100%;
+                display: flex;
                 height: 100%;
-                background-color: color;
+                align-items: center;
+                font-size: 100%;
+                justify-content: center;
             }
+            .headbutt a:hover{
+            transition: background-color 0.3s ease;
+            background-color: #527524;
+        }
         </style>
         <div class="col-12 headbody">
-            <nav class="col-xl-6 headbutt">
-            <a class="row"href="index.html" style="text-decoration: none; color: whitesmoke;">HOME</a>
-            <a href="about.html" style="text-decoration: none; color: whitesmoke;">ABOUT US</a>
-            <a href="gallery.html" style="text-decoration: none; color: whitesmoke;">GALLERY</a>
-            <a href="#" style="text-decoration: none; color: whitesmoke;">SERVICES</a>
-            <a href="contact.html" style="text-decoration: none; color: whitesmoke;">CONTACT US</a>
+            <nav class="row headbutt">
+            <a class="col" href="index.html" style="text-decoration: none; color: whitesmoke;">HOME</a>
+            <a class="col" href="about.html" style="text-decoration: none; color: whitesmoke;">ABOUT US</a>
+            <a class="col" href="gallery.html" style="text-decoration: none; color: whitesmoke;">GALLERY</a>
+            <a class="col" href="#" style="text-decoration: none; color: whitesmoke;">SERVICES</a>
+            <a class="col" href="contact.html" style="text-decoration: none; color: whitesmoke;">CONTACT US</a>
             </nav>
         </div>
 
